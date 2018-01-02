@@ -1,0 +1,47 @@
+REM Description: nConsole is an improved version of Windows Command Prompt, with quick shortcuts,
+REM ability to open programs with a phrase,
+REM includes custom made tools,
+REM and an overall cleaner aesthetic making this GUI more user friendly
+REM than the default Windows Command Prompt.
+
+REM File Directories:
+REM Default Game short cuts are in '%SYSTEMDRIVE%\DOCUME~1\%USERNAME%\Desktop\Game Shortcuts'
+REM Default file location is under '%SYSTEMDRIVE%\nCommand'
+REM The Software Shortcuts are in '%SYSTEMDRIVE%\DOCUME~1\%USERNAME%\Desktop\Software' with sub-folders 
+REM in the directory: "Games" "Media" "PC" "Social"
+
+REM Tips:
+REM I recommended downloading "NOTEPAD++", or you may manually change all "NOTEPAD++" commands to "NOTEPAD" 
+REM in the source code.
+REM You can type 'GET NOTEPAD++' as a command for nConsole to download "NOTEPAD++"
+REM Or type 'DOWN PREREQ' to get all prerequisites.
+REM Under '%SYSTEMDRIVE%\nCommand\test' there is a copy of this batch for compiling. You can type 'EDIT' in 
+REM nConsole to open up the source codes
+REM and type 'COMPILE' to quickly edit and apply changes to nConsole 
+REM [Sometimes compile might not work properly, in that case, just exit, and relaunch. New code will be compiled.
+REM ie: common bug: goes to another
+REM command instead of restarting nConsole]
+REM Type 'EDITL' to open up nConsole's folder.
+REM Near the bottom of the code, there is a code checker. Follow listed instructions in the code to 
+REM test it out. Then 'COMPILE' and type in 'CODE' to test and check for ERRORLEVELS.
+REM Typing 'DEBUG' can also open up a debugger, but there may be a lot of false positives.
+REM You can type 'nComp' to compress the nConsole directory to create a new build.
+
+REM Features:
+REM Easy colour changing w/ default saves
+REM Compiler tool
+REM Source code accessibility
+REM Battlefield 4 loading speed fixer
+REM File type association fixer
+REM Code tester and advance ERRORLEVEL checker
+REM Debugging tool (for nConsole ALPHA debugging only)
+REM User Action Control switch [ON/OFF]
+REM Easy AdminConsole accessibility
+REM Notepad++ download and other prerequisites
+REM Shortcut Launcher
+REM Redesigned default Command Prompt commands
+REM Quick CD [Change Directory] shortcuts
+REM Quick nConsole build and compress.
+REM Add your own Shortcuts!
+
+REM This program was created by (c)Evan Quach.

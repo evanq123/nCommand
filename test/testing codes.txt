@@ -1,0 +1,34 @@
+REM FORMAT: IF /I "%CMD%" EQU "%VARIABLE_NAME%" ( ECHO Starting %PROGRAM_NAME% && PAUSE && START "" "%DESKTOP%\Game Shortcuts\%SHORTCUT_NAME%" && ECHO. && GOTO END )
+REM FORMAT: IF /I "%CMD%" EQU "%VARIABLE_NAME%" ( ECHO Starting %PROGRAM_NAME% && PAUSE && START "" "%DESKTOP%\Software\%SOFTWARE_SFOLD%\%SHORTCUT_NAME%" && ECHO. && GOTO END )
+
+
+
+@ECHO off
+VER | FIND "2003" > NUL
+IF %ERRORLEVEL% == 0 GOTO dontRun
+VER | FIND "XP" > NUL
+IF %ERRORLEVEL% == 0 GOTO dontRun
+VER | FIND "2000" > NUL
+IF %ERRORLEVEL% == 0 GOTO dontRun
+VER | FIND "NT" > NUL
+IF %ERRORLEVEL% == 0 GOTO dontRun
+
+IF NOT EXIST %SystemRoot%\system32\systeminfo.exe GOTO warnthenexit
+SYSTEMINFO | FIND "OS Name" > %TEMP%\osname.txt
+FOR /F "usebackq delims=: tokens=2" %%i IN (%TEMP%\osname.txt) DO set VERs=%%i
+ECHO %VERs% | FIND "Windows 7" > NUL
+IF %ERRORLEVEL% == 0 GOTO startup
+ECHO %VERs% | FIND "Windows Server 2008" > NUL
+IF %ERRORLEVEL% == 0 GOTO startup
+ECHO %VERs% | FIND "Windows Vista" > NUL
+IF %ERRORLEVEL% == 0 GOTO startup
+ECHO %VERs% | FIND "Windows 8" > NUL
+IF %ERRORLEVEL% == 0 GOTO startup
+ECHO %VERs% | FIND "Windows 10" > NUL
+IF %ERRORLEVEL% == 0 GOTO startup
+GOTO warnthenexit
+
+:warnthenexit
+ECHO Machine undetermined.
+PAUSE
+:exit

@@ -1,0 +1,7 @@
+strBuildDirectory=(WScript.Arguments(0))
+
+IF WScript.Arguments.Count = 0 then
+	WScript.Echo "Missing parameters"
+ELSE
+	WScript.Echo(strBuildDirectory)  
+END IF

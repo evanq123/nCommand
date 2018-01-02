@@ -1,0 +1,171 @@
+WARNING ONLY USE WITH: Windows 8, Windows RT, Windows 8.1, and Windows RT 8.1.
+This can help you restore the default file associations.
+
+
+Instructions:
+1. Copy the .reg file to your desktop
+
+2. Double click/tap on the downloaded .reg file to Merge it.
+
+3. If prompted, click/tap on Run, Yes (UAC), Yes, and OK to approve the merge.
+
+	Tips:If the .reg file is not able to Merge, then double check in Default Programs to make sure that the .reg file extension has it's
+	Current Default program set as Registry Editor (C:\Windows\regedit.exe). Afterwards, try merging the .reg file again.
+	
+4. Sign out and in, or restart the computer to apply.
+
+
+Work in Progress: Currently adding extensions to CMD program.
+
+
+
+
+File Type or Protocol				Default Program				Description
+
+
+.3gp								Video app					Audio and video container format developed by the 3rd Generation 
+																Partnership Project (3GPP); designed as a multimedia format for 
+																transmitting audio and video files between 3G cell phones and 
+																over the Internet; commonly used by mobile phones that support 
+																video capture.
+
+.avi								Video app					Audio Video Interleave (AVI) files
+
+.bat															Windows batch file
+
+.bmp								Photos app					Bitmap image files
+
+.cab															Cabinet file
+
+.cer								Crypto Shell Extensions		Security Certificate file
+
+.cmd															Windows Command Script
+
+.contact							Windows Contacts			Contact file
+
+.cpl								Windows Control Panel		Control Panel item
+
+.crt								Crypto Shell 				Extensions	Security Certificate file
+
+.cur															Cursor
+
+.dat															Generic data file created by a specific application; 
+																typically accessed only by the application that created 
+																the file; may contain data in text or binary format; 
+																text-based DAT files can be viewed in a text editor.
+
+.dds															DDS (DirectDraw Surface) image
+
+.der								Crypto Shell Extensions		Security Certificate file
+
+??Directory														Directory protocol associations
+
+.dll															A Dynamic Link Library (dll) file is a support file used 
+																by one or more programs. Application extension.
+																
+Drive															Drives
+
+.exe															Executable application files
+
+.ext															EXT File. For example, email text attachment.
+
+Folder															All folders except library folder
+
+.gif								Photos app					Graphics Interchange Format (GIF) image files
+
+.hlp								Windows Winhlp32 Stub		Help file
+
+.htm								Internet Explorer			HTML (Hypertext Mark-up Language) document files
+
+.html								Internet Explorer			HTML (Hypertext Mark-up Language) document files
+
+http								Internet Explorer			URL: HyperText Transfer Protocol
+
+https								Internet Explorer			URL: HyperText Transfer Protocol with Privacy
+
+.ico								Windows Photo Viewer		Icon file
+
+.img															CD or DVD image file
+
+.inf								Notepad						Setup Information
+
+.iso															Disk image file
+
+.jpe								Photos app					Compressed image format standardized by the Joint Photographic Experts Group (JPEG)
+
+.jpeg								Photos app					Compressed image format standardized by the Joint Photographic Experts Group (JPEG)
+
+.jpg								Photos app					Compressed image format standardized by the Joint Photographic Experts Group (JPEG)
+
+.jnt								Windows Journal				Windows Journal file
+
+.library-ms														Library folder
+
+.lnk (LNK)														Shortcuts
+
+mailto															URL:mailto
+
+.mapimail														Mail service
+
+.mp3								Music app					MP3 sound format file
+
+.mp4								Video app					MPEG-4 movie file
+
+.mpg								Windows Media Player		Movie clip
+
+.msi								Windows installer			Windows Installer Package
+
+.msu								Windows Update Standalone 	Windows Update Standalone Package
+									installer					
+									
+.nfo								System Information			System Information File
+
+Open with - > Choose default program							This is for what opens when you right click on a file, 
+																click on Open with, and click on Choose default program.
+																
+Package															Package protocol
+
+.pdf								Reader app					Portable Document Format (PDF) File
+
+.png								Photos app					Portable Network Graphics (PNG) is a bitmap compression method for image files. 
+																PNG supports 16.7 million colors, it is lossless and also supports index color, 
+																grayscale, true color, transparency, and is streamable. It is thus the best compression 
+																method (better than GIF or JPEG) for use on the web.
+																
+.scr															Screen saver
+
+.theme								Personalization CPL			Windows Theme File
+
+.themepack							Personalization CPL			Windows Theme Pack File
+
+.ttf								Windows Font Viewer			TrueType font file
+
+.txt								Notepad						Text files
+
+Type															To remove association with blank file extension.
+
+.url								current default Browser		Internet website shortcut
+
+.vbs								Microsoft Windows Based 	VBScript Script File
+									Script Host (wscript.exe)	
+									
+.vhd															Virtual Hard Disk image file
+
+.wab								Windows Contacts			Windows Address Book (WAB) file
+
+.wav								Music app					Wave audio file
+
+.website							Internet Explorer			Pinned Site Shortcut
+
+.wma								Music app					Windows Media Audio file
+
+.wmv								Video app					Windows Media Audio/Video file
+
+.workfolders						Windows Control Panel		Microsoft Workfolders
+
+.xaml								Windows Presentation 		Windows Markup file
+									Foundation Host	
+									
+.xml								Internet Explorer			XML Document
+
+.zip															Compressed folders

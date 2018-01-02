@@ -1,0 +1,1 @@
+SET _LogFile=%~dp1

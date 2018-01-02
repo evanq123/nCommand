@@ -1,0 +1,1 @@
+"%SystemDrive%\nCommand\Test\Debugging\BatCodeCheck.exe" "%SystemDrive%\nCommand\nConsole.bat" /L[:"%systemdrive%\nCommand\nConsole.log"] /E

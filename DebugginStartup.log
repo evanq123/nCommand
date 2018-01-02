@@ -1,0 +1,93 @@
+
+C:\CowCMD\Test\Debugging>IF NOT "Windows_NT" == "Windows_NT" GOTO DontRun 
+
+C:\CowCMD\Test\Debugging>VER   | FIND "Windows NT"   1>NUL  && GOTO DontRun 
+
+C:\CowCMD\Test\Debugging>VER   | FIND "Windows 2000"   1>NUL  && GOTO DontRun 
+
+C:\CowCMD\Test\Debugging>SETLOCAL EnableDelayedExpansion 
+
+C:\CowCMD\Test\Debugging>SETLOCAL EnableDelayedExpansion 
+
+C:\CowCMD\Test\Debugging>TITLE nConsole(c)Evan Quach 
+
+C:\CowCMD\Test\Debugging>FOR /F %s in ('type C:\CowCMD\def_txt\defCOLORs.txt') DO SET savCol=%s 
+
+C:\CowCMD\Test\Debugging>SET savCol=0e 
+
+C:\CowCMD\Test\Debugging>ECHO !savCol! 
+0e
+
+C:\CowCMD\Test\Debugging>COLOR !savCol! 
+
+C:\CowCMD\Test\Debugging>SETLOCAL
+
+C:\CowCMD\Test\Debugging>FOR /F "usebackq delims=" %i in (`cscript "!SYSTEMDRIVE!\CowCMD\vbs\findDesktop.vbs"`) DO SET DESKTOPDIR=%i 
+
+C:\CowCMD\Test\Debugging>SET DESKTOPDIR=Microsoft (R) Windows Script Host Version 5.8 
+
+C:\CowCMD\Test\Debugging>SET DESKTOPDIR=Copyright (C) Microsoft Corporation. All rights reserved. 
+
+C:\CowCMD\Test\Debugging>SET DESKTOPDIR=C:\Users\EvanQ123\Desktop 
+
+C:\CowCMD\Test\Debugging>ECHO !DESKTOPDIR! 
+C:\Users\EvanQ123\Desktop
+
+C:\CowCMD\Test\Debugging>SETLOCAL
+
+C:\CowCMD\Test\Debugging>cd !DESKTOPDIR! 
+
+C:\Users\EvanQ123\Desktop>cls
+
+C:\Users\EvanQ123\Desktop>SETLOCAL EnableDelayedExpansion 
+
+C:\Users\EvanQ123\Desktop>ECHO Enter a Command, type "hcommands" for list of custom commands. 
+Enter a Command, type "hcommands" for list of custom commands.
+
+C:\Users\EvanQ123\Desktop>ECHO.
+
+
+C:\Users\EvanQ123\Desktop>ECHO Type help to see list of common commands like cd, rd, md, del, 
+Type help to see list of common commands like cd, rd, md, del,
+
+C:\Users\EvanQ123\Desktop>ECHO ren, replace, copy, xcopy, move, attrib, tree, edit, and cls. 
+ren, replace, copy, xcopy, move, attrib, tree, edit, and cls.
+
+C:\Users\EvanQ123\Desktop>ECHO Type [command]/? for detailed info. 
+Type [command]/? for detailed info.
+
+C:\Users\EvanQ123\Desktop>ECHO.
+
+
+C:\Users\EvanQ123\Desktop>ECHO Type "admin" to gain Adminstrator Privalages for this CMD. 
+Type "admin" to gain Adminstrator Privalages for this CMD.
+
+C:\Users\EvanQ123\Desktop>ECHO.
+
+
+C:\Users\EvanQ123\Desktop>ECHO Type all commands as lowercase if possible. 
+Type all commands as lowercase if possible.
+
+C:\Users\EvanQ123\Desktop>ECHO.
+
+
+C:\Users\EvanQ123\Desktop>GOTO commands 
+
+C:\Users\EvanQ123\Desktop>ECHO.
+
+
+C:\Users\EvanQ123\Desktop>ECHO [Press r to clear] 
+[Press r to clear]
+
+C:\Users\EvanQ123\Desktop>GOTO cmd 
+
+C:\Users\EvanQ123\Desktop>SETLOCAL EnableDelayedExpansion 
+
+C:\Users\EvanQ123\Desktop>ECHO Directory: "C:\Users\EvanQ123\Desktop" [Press h for help] 
+Directory: "C:\Users\EvanQ123\Desktop" [Press h for help]
+
+C:\Users\EvanQ123\Desktop>ECHO.
+
+
+C:\Users\EvanQ123\Desktop>SET /p CMD=Command: 
+Command:

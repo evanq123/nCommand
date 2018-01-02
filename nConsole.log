@@ -1,0 +1,86 @@
+Time      :  2015-02-07 20:27:08
+Program   :  BatCodeCheck, Version 0.32.1 beta
+Arguments :  C:\nCommand\nConsole.bat /L[:C:\nCommand\nConsole.log] /E
+File name :  "C:\nCommand\nConsole.bat"
+File date :  2015-02-07 19:52:16
+
+ERRORS / VULNERABILITIES:
+Line    57:	Unterminated percent signs
+Line    58:	Unterminated percent signs
+Line   191:	Invalid command line argument "%SYSTEMDRIVE%\nCommand\var.bat" for CALL command: no matching internal command, nor external command was found
+Line   233:	Unterminated percent signs
+Line   237:	Unterminated percent signs
+Line   256:	Unterminated percent signs
+Line   343:	Unterminated percent signs
+Line   347:	Unterminated percent signs
+Line   521:	Invalid command line argument(s) "> "fileAssoc.txt"" for ASSOC command
+Line   581:	Unterminated doublequotes
+Line   655:	Unterminated percent signs
+Line   688:	Unterminated percent signs
+Line   690:	Unterminated percent signs
+Line   691:	Unterminated percent signs
+Line   692:	Unterminated percent signs
+Line   693:	Unterminated percent signs
+Line   694:	Unterminated percent signs
+Line   695:	Unterminated percent signs
+Line   696:	Unterminated percent signs
+Line   697:	Unterminated percent signs
+Line   698:	Unterminated percent signs
+Line   699:	Unterminated percent signs
+Line   700:	Unterminated percent signs
+Line   701:	Unterminated percent signs
+Line   702:	Unterminated percent signs
+Line   703:	Unterminated percent signs
+Line   704:	Unterminated percent signs
+Line   705:	Unterminated percent signs
+Line   706:	Unterminated percent signs
+Line   707:	Unterminated percent signs
+Line   708:	Unterminated percent signs
+Line   709:	Unterminated percent signs
+Line   710:	Unterminated percent signs
+Line   808:	Unterminated percent signs
+Line   809:	Unterminated percent signs
+Line   811:	Unterminated percent signs
+Line   813:	Unterminated percent signs
+Line   815:	Unterminated percent signs
+Line   816:	Unterminated percent signs
+Line   817:	Unterminated percent signs
+
+WARNINGS / TO BE INVESTIGATED:
+Line    55:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   120:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   232:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   235:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   247:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   266:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   355:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   362:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   369:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   382:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   438:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   448:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   489:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   503:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   548:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   601:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   645:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   651:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   687:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   752:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   772:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+Line   870:	SET /P could make your code vulnerable to exploits (see http://www.robvanderwoude.com/battech_inputvalidation.php#SetP)
+
+TIPS / BEST PRACTICES:
+Line    70:	Doublequoted SET statements are not recommended, except with /A (or /P) switch; use SET admError=%ERRORLEVEL% instead of SET "admError=%ERRORLEVEL%"
+Line    74:	Doublequoted SET statements are not recommended, except with /A (or /P) switch; use SET typError=%ERRORLEVEL% instead of SET "typError=%ERRORLEVEL%"
+Line    78:	Doublequoted SET statements are not recommended, except with /A (or /P) switch; use SET tsknfErr=%ERRORLEVEL% instead of SET "tsknfErr=%ERRORLEVEL%"
+
+SUMMARY:
+696 lines generated warnings and should be examined
+37  unterminated percent signs were found
+1   unterminated doublequote was found
+
+
+Note that some warnings are only displayed once. Correct the errors and run this test again.
+
+
